@@ -1,0 +1,22 @@
+# Dependencies and build output
+node_modules
+dist
+dist-ssr
+*.local
+
+# Secrets: never commit these
+.env
+.env.*
+
+# Logs and editor files
+logs
+*.log
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Temporary program folders
+code-runs
+run-*
